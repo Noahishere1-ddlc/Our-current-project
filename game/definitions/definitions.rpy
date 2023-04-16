@@ -195,7 +195,7 @@ image end:
 
 # Custom backgrounds
 image bg school_building = "mod_assets/bg/school_building.jpg"
-image bg classroom_afternoon = "mod_assets/bg/classroom_afternoon.jng"
+image bg classroom_afternoon = "mod_assets/bg/classroom_afternoon.jpg"
 image bg bstop_noon = "mod_assets/bg/bstopnoon.jpg"
 image bg bstop_night = "mod_assets/bg/bstopnight.jpg"
 image bg bstop_morning = "mod_assets/bg/bstopmorning.jpg"

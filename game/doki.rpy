@@ -45,14 +45,21 @@ label Test:
     "I actually don't know what class I'm in."
     "I should probably find a student or teacher to talk to."
     "I scan my surroundings to look for anyone to talk to in a peculiar pose."
+    "It seems like there's no one that looks approachable."
+    "I'm not really the type of person that can just butt into a conversation either."
+    "This is gonna be harder than I thought..."
     "???" "What are you doing?"
     mc "Eh?"
     "???" "You look really suspicious right now, you know?"
     "I turn to face the direction of the voice."
     show sayori 1b at t11 zorder 1
     "I see a young schoolgirl."
-    "First edit."
-    
+    "She has a cute red ribbon on the side of her hair"
+    "It really has a nice contrast with her eyes"
+    "Wait. I shouldn't be staring at her. What if she thinks I'm a creep?"
+    show sayori turned neut om oe at t11 zorder 1
+    "???" "Hello? Earth to um... whoever you are."
+    "Ah! S-sorry for staring. My name is [player]. I was hoping to"
     mc "Huh?"
     "I turned to look behind me but I saw no one there."
     "That was weird. I was almost sure that someone was calling my name."

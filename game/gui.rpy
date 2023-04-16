@@ -1,5 +1,3 @@
-## gui.rpy
-
 # This file defines all the positions, colors, paths and more of DDLC's GUI
 # interface.
 

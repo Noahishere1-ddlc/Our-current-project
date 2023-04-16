@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 240, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/definitions/splash.rpy", line 299, in script
+    python:
+  File "game/definitions/splash.rpy", line 304, in <module>
+    try: process_list = subprocess.check_output("wmic process get Description", shell=True).lower().replace("\r", "").replace(" ", "").split("\n")
+TypeError: a bytes-like object is required, not 'str'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 240, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/definitions/splash.rpy", line 299, in script
+    python:
+  File "C:\Users\Noah\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Noah\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/definitions/splash.rpy", line 304, in <module>
+    try: process_list = subprocess.check_output("wmic process get Description", shell=True).lower().replace("\r", "").replace(" ", "").split("\n")
+TypeError: a bytes-like object is required, not 'str'
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+DDLC Mod Template – Python 2 Edition 4.2.1-Py2
+Mon Apr 17 02:14:23 2023

@@ -1,0 +1,71 @@
+Mon Apr 17 02:14:18 2023
+Windows-10-10.0.19044
+Ren'Py 8.0.3.22090809
+ 
+
+Bootstrap to the start of init.init took 0.07s
+Early init took 0.00s
+Loader init took 0.27s
+Loading error handling took 0.08s
+Loading script took 2.66s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Noah\\Downloads\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.18s
+Loading analysis data took 0.00s
+Analyze and compile ATL took 0.13s
+Index archives took 0.00s
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.06s
+Save screen analysis took 0.03s
+Prepare screens took 0.30s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.11s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 4400'
+Version: b'4.3.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Could not open 'cache/shaders.txt':
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 240, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/definitions/splash.rpy", line 299, in script
+    python:
+  File "C:\Users\Noah\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Noah\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/definitions/splash.rpy", line 304, in <module>
+    try: process_list = subprocess.check_output("wmic process get Description", shell=True).lower().replace("\r", "").replace(" ", "").split("\n")
+TypeError: a bytes-like object is required, not 'str'
+
+While running game code:
+  File "renpy/common/00start.rpy", line 240, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/definitions/splash.rpy", line 299, in script
+    python:
+  File "game/definitions/splash.rpy", line 304, in <module>
+    try: process_list = subprocess.check_output("wmic process get Description", shell=True).lower().replace("\r", "").replace(" ", "").split("\n")
+TypeError: a bytes-like object is required, not 'str'

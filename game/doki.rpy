@@ -57,7 +57,7 @@ label Test:
     "She has a cute red ribbon on the side of her hair"
     "It really has a nice contrast with her eyes"
     "Wait. I shouldn't be staring at her. What if she thinks I'm a creep?"
-    show sayori turned neut om oe
+    show sayori turned neut om oe at t11 zorder 1
     "???" "Hello? Earth to um... whoever you are."
     "Ah! S-sorry for staring. My name is [player]. I was hoping to"
     mc "Huh?"

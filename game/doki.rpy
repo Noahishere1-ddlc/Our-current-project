@@ -51,8 +51,8 @@ label Test:
     "I turn to face the direction of the voice."
     show sayori 1b at t11 zorder 1
     "I see a young schoolgirl."
-    "First edit."
-    
+    "She has a cute red ribbon on the side of her hair"
+    "It really has a nice contrast with her eyes"
     mc "Huh?"
     "I turned to look behind me but I saw no one there."
     "That was weird. I was almost sure that someone was calling my name."

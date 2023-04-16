@@ -51,7 +51,7 @@ label Test:
     "I turn to face the direction of the voice."
     show sayori 1b at t11 zorder 1
     "I see a young schoolgirl."
-    
+    "First edit."
     
     mc "Huh?"
     "I turned to look behind me but I saw no one there."

@@ -193,6 +193,15 @@ image end:
     truecenter
     "gui/end.png"
 
+# Custom backgrounds
+image bg school_building = "mod_assets/bg/school_building.jpg"
+image bg classroom_afternoon = "mod_assets/bg/classroom_afternoon.jng"
+image bg bstop_noon = "mod_assets/bg/bstopnoon.jpg"
+image bg bstop_night = "mod_assets/bg/bstopnight.jpg"
+image bg bstop_morning = "mod_assets/bg/bstopmorning.jpg"
+image bg bstop_evening = "mod_assets/bg/bstopevening.jpg"
+
+
 image bg residential_day = "bg/residential.png" # Start of DDLC BG
 image bg class_day = "bg/class.png" # The classroom BG
 image bg corridor = "bg/corridor.png" # The hallway BG

@@ -9,24 +9,24 @@ label Test:
     "???" "For I cannot speak."
     "???" "There is no sight, taste, sound, touch and smell."
     "???" "Yet, I can feel all of them all at once."
-    "???" "I do not have a name"
+    "???" "I do not have a name."
     "???" "But I have a purpose."
     "???" "Save them."
     "???" "Those were the words engraved in my soul."
     "???" "I do not have memories."
     "???" "But I have you're words."
     "???" "And so..."
-    "???" "I take the pieces of my shattered soul."
+    "???" "I take the pieces of my broken soul."
     "???" "I start reforming myself."
     "???" "I piece together..."
-    "???" "My shattered mind."
+    "???" "My fractured mind."
     "???" "So we can meet once again."
     "???" "No matter what form you may take, I promise..."
     "???" "I will save you."
     "???" "All of you."
     scene bg residential_day
     with dissolve_scene_full
-    play audio t1
+    play audio t2
     "The sun is really hot today."
     "It's times like these when I wish I had some superpowers."
     "Imagine how useful teleportation would be."

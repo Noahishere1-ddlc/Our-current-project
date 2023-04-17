@@ -1,12 +1,12 @@
-Mon Apr 17 18:14:44 2023
+Mon Apr 17 18:15:49 2023
 Windows-10-10.0.22621
 Ren'Py 7.5.3.22090809
  
 
-Bootstrap to the start of init.init took 0.27s
-Early init took 0.02s
-Loader init took 0.15s
-Loading error handling took 0.10s
+Bootstrap to the start of init.init took 0.18s
+Early init took 0.01s
+Loader init took 0.06s
+Loading error handling took 0.08s
 
 Full traceback:
   File "renpy/bootstrap.py", line 277, in bootstrap
@@ -23,5 +23,5 @@ Full traceback:
     n.filename, n.linenumber))
 Exception: Line with id Test_c6daba82 appeared twice, at game/chapter-0.rpy:5 and game/doki.rpy:5.
 
-While parsing C:\Users\Pandora\Desktop\RPY Projects\Our-current-project\game/chapter-0.rpy.
+While parsing C:\Users\Pandora\Desktop\RPY Projects\Our-current-project\game/definitions/definitions.rpy.
 Exception: Line with id Test_c6daba82 appeared twice, at game/chapter-0.rpy:5 and game/doki.rpy:5.

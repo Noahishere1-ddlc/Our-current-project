@@ -1,6 +1,6 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While parsing C:\Users\Pandora\Desktop\RPY Projects\Our-current-project\game/chapter-0.rpy.
+While parsing C:\Users\Pandora\Desktop\RPY Projects\Our-current-project\game/definitions/definitions.rpy.
 Exception: Line with id Test_c6daba82 appeared twice, at game/chapter-0.rpy:5 and game/doki.rpy:5.
 
 -- Full Traceback ------------------------------------------------------------
@@ -23,4 +23,4 @@ Exception: Line with id Test_c6daba82 appeared twice, at game/chapter-0.rpy:5 an
 Windows-10-10.0.22621 AMD64
 Ren'Py 7.5.3.22090809
  
-Mon Apr 17 18:14:47 2023
+Mon Apr 17 18:15:56 2023

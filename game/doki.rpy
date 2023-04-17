@@ -72,9 +72,9 @@ label Test:
     "It seems like there's no one that looks approachable."
     "I'm not really the type of person that can just butt into a conversation either."
     "This is gonna be harder than I thought..."
-    "???" "What are you doing?"
+    nic "What are you doing?"
     mc "Eh?"
-    "???" "You look really suspicious right now, you know?"
+    nic "You look really suspicious right now, you know?"
     "I turn to face the direction of the voice."
     show sayori 1b at t11 zorder 1
     "I come face to face with a student."
@@ -82,19 +82,53 @@ label Test:
     "Judging from her overall figure, she was probably my age."
     "I had no way to be sure though."
     show sayori turned neut om oe at t11 zorder 1
-    "???" "Hello? Earth to um... whoever you are."
+    nic "Hello? Earth to um... whoever you are."
     "This is not good. I gotta say something before she gets the wrong idea."
     mc "U-um... you look very nice today...?"
     show sayori turned lsur om oe at t11 zorder 1
-    "???" "Huh?"
+    nic "Huh?"
+    play music soliloquy fadein 1.5
     "Are you kidding me!?"
     "\"You look very nice today!\" Nice going doofus. What the actual hell was wrong with me!?"
     "It's like I've never talked to people my entire life"
     "I have to remedy the situation."
     mc "What I m-meant to say is... how do you do!?"
+    nic "Um..."
+    mc "Ohayou!"
+    mc "Selamat pagi!"
+    mc "DOBROYE UTRO!!!"
     show sayori turned curi cm oe at t11 zorder 1
-
+    nic "Excuse me?"
+    "....."
+    "{i}Inner facepalm.{/i}"
+    "Now I'm just spouting out utter nonsense!"
+    "Relax [player]."
+    "I take a deep breath."
+    "I think I'm calm enough to speak now."
+    mc "S-sorry. I'm not really good with talking to people."
+    show sayori turned neut cm oe
+    nic "....."
+    show sayori turned neut mc
+    "Suddenly the girl burst out laughing."
+    "She was laughing so much, she started clutching her sides."
     mc "Huh?"
+    "What's so funny? Is she making fun of me?"
+    show sayori turned laug cm ce
+    nic "Your reactions are so funny~"
+    "Well, that's not what I expected at all."
+    "Well, I certainly don't mind being complimented."
+    "If that {i}was{/i} a compliment in the first place and not a insult."
+    mc "Um...t-thanks?"
+    nic "{i}See?{/i} Just like that!"
+    mc "How was that f-funny!?"
+    "All I did was shout greetings in different languages..."
+    "This girl sure has a weird sense of humor."
+    show sayori turned happ om oe
+    nic "What's your name?"
+    mc "Oh! Um...I-its [player]. Nice to meet you...?"
+    show sayori turned happ cm ce
+    s "It's Sayori! Nice to meet you too, [player]~"
+
     "I turned to look behind me but I saw no one there."
     "That was weird. I was almost sure that someone was calling my name."
     mc "!?"

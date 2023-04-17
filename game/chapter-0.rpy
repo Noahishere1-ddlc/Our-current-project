@@ -3,6 +3,10 @@ label Test:
     scene black
     with dissolve_scene_full
     play music m1 fadein 1.5
+    nic "Sentience."
+    nic "Awareness."
+    nic "Existence."
+    nic "Thought."
     nic "Sounds."
     nic "No... noises."
     nic "Words."

@@ -6,15 +6,18 @@
 
 # This file customizes what your mod is and and how it starts and builds!
 
+# This variable declares whether Developer Mode is on or off in the mod.
+define config.developer = True
+
 # This controls what your mod is called.
-define config.name = "DDLC Mod Template – Python 2 Edition"
+define config.name = "Doki Doki: Fractured Mind"
 
 # This controls whether you want your mod name to show in the main menu.
 # If your mod name is big, it is suggested to turn this off.
 define gui.show_name = True
 
 # This controls the version number of your mod.
-define config.version = "4.2.1-Py2"
+define config.version = "Beta 1"
 
 # This adds information about your mod in the About screen.
 # DDLC does not have a 'About' screen so you can leave this blank.
@@ -25,7 +28,7 @@ define gui.about = _("")
 # Note:
 #   The build name is ASCII only so no numbers, spaces, or semicolons.
 #   Example: Doki Doki Yuri Time to DokiDokiYuriTime
-define build.name = "DDLCModTemplateTwo-Py2"
+define build.name = "DokiDokiFracturedMind"
 
 # This configures whether your mod has sound effects.
 define config.has_sound = True
@@ -82,7 +85,7 @@ default preferences.sfx_volume = 0.75
 #   Windows: %AppData%/RenPy/
 #   macOS: $HOME/Library/RenPy/ (Un-hide the Library Folder)
 #   Linux: $HOME/.renpy/
-define config.save_directory = "DDLCModTemplateTwo"
+define config.save_directory = "DDLCFracturedMind"
 
 # This controls the window logo of your mod.
 define config.window_icon = "gui/window_icon.png"

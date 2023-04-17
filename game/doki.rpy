@@ -2,7 +2,7 @@ label Test:
     stop music fadeout 2.0
     scene black
     with dissolve_scene_full
-    "???" "Sounds."
+    nic "Sounds."
     "???" "No... noises."
     "???" "Words."
     "???" "They're not mine."
@@ -93,7 +93,7 @@ label Test:
     "I have to remedy the situation."
     mc "What I m-meant to say is... how do you do!?"
     show sayori turned curi cm oe at t11 zorder 1
-    
+
     mc "Huh?"
     "I turned to look behind me but I saw no one there."
     "That was weird. I was almost sure that someone was calling my name."

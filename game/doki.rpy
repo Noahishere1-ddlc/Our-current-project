@@ -14,7 +14,7 @@ label Test:
     nic "Save them."
     nic "Those were the words engraved in my soul."
     nic "I do not have memories."
-    nic "But I have you're words."
+    nic "But I have your words."
     nic "And so..."
     nic "I take the pieces of my broken soul."
     nic "I start reforming myself."
@@ -78,7 +78,7 @@ label Test:
     "I turn to face the direction of the voice."
     show sayori 1b at t11 zorder 1
     "I come face to face with a student."
-    "She wore a red ribbon on her head."
+    "She has a red ribbon on her head."
     "Judging from her overall figure, she was probably my age."
     "I had no way to be sure though."
     show sayori turned neut om oe at t11 zorder 1
@@ -89,8 +89,8 @@ label Test:
     nic "Huh?"
     play music soliloquy fadein 1.5
     "Are you kidding me!?"
-    "\"You look very nice today!\" Nice going doofus. What the actual hell was wrong with me!?"
-    "It's like I've never talked to people my entire life"
+    "\"You look very nice today!\" Nice going doofus. What the actual hell is wrong with me!?"
+    "It's like I haven't talked to people my entire life!"
     "I have to remedy the situation."
     mc "What I m-meant to say is... how do you do!?"
     nic "Um..."
@@ -108,15 +108,15 @@ label Test:
     mc "S-sorry. I'm not really good with talking to people."
     show sayori turned neut cm oe
     nic "....."
-    show sayori turned neut mc
+    show sayori turned laug cm ce
     "Suddenly the girl burst out laughing."
     "She was laughing so much, she started clutching her sides."
     mc "Huh?"
     "What's so funny? Is she making fun of me?"
-    show sayori turned laug cm ce
+    show sayori turned happ om ce
     nic "Your reactions are so funny~"
     "Well, that's not what I expected at all."
-    "Well, I certainly don't mind being complimented."
+    "I certainly don't mind being complimented though."
     "If that {i}was{/i} a compliment in the first place and not a insult."
     mc "Um...t-thanks?"
     nic "{i}See?{/i} Just like that!"

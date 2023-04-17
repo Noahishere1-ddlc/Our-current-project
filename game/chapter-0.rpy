@@ -2,6 +2,7 @@ label Test:
     stop music fadeout 2.0
     scene black
     with dissolve_scene_full
+    play music m1 # Just monika from official DDLC OST
     nic "Sounds."
     nic "No... noises."
     nic "Words."

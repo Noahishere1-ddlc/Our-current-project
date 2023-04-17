@@ -1,31 +1,50 @@
-Mon Apr 17 18:17:54 2023
+Mon Apr 17 18:35:21 2023
 Windows-10-10.0.22621
 Ren'Py 7.5.3.22090809
  
 
-Bootstrap to the start of init.init took 0.49s
+Bootstrap to the start of init.init took 0.50s
 Early init took 0.01s
-Loader init took 0.07s
+Loader init took 0.15s
 Loading error handling took 0.08s
-Loading script took 3.71s
-Loading save slot metadata. took 0.02s
+Loading script took 4.39s
+Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Faled to initialize steam: WindowsError(126, 'The specified module could not be found')
-Running init code took 0.48s
-Loading analysis data took 0.09s
-Analyze and compile ATL took 0.14s
+Running init code took 0.61s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.22s
 Index archives took 0.00s
-Dump and make backups. took 0.16s
+Backing up script files to 'C:\\Users\\Pandora\\AppData\\Roaming/RenPy/backups\\Our-current-project':
+Dump and make backups. took 0.29s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.09s
+Initial gc. took 0.13s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: "Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.12s
+Init translation took 0.13s
 Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.06s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.07s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.21s
+Save bytecode. took 0.11s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) HD Graphics 3000'
+Version: '3.1.0 - Build 9.17.10.4459'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
+Could not open 'cache/shaders.txt':
+Maximum texture size: 4096x4096

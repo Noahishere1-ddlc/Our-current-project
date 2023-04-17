@@ -25,6 +25,7 @@ label Test:
     nic "No matter what form you may take, I promise..."
     nic "I'll save you."
     nic "All of you."
+    stop music fadeout 2.0
     scene bg residential_day
     with dissolve_scene_full
     play audio t2

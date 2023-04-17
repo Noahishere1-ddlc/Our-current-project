@@ -77,13 +77,22 @@ label Test:
     "???" "You look really suspicious right now, you know?"
     "I turn to face the direction of the voice."
     show sayori 1b at t11 zorder 1
-    "I see a young schoolgirl."
-    "She has a cute red ribbon on the side of her hair"
-    "It really has a nice contrast with her eyes"
-    "Wait. I shouldn't be staring at her. What if she thinks I'm a creep?"
+    "I come face to face with a student."
+    "She wore a red ribbon on her head."
+    "Judging from her overall figure, she was probably my age."
+    "I had no way to be sure though."
     show sayori turned neut om oe at t11 zorder 1
     "???" "Hello? Earth to um... whoever you are."
-    "Ah! S-sorry for staring. My name is [player]. I was hoping to"
+    "This is not good. I gotta say something before she gets the wrong idea."
+    mc "U-um... you look very nice today...?"
+    show sayori turned lsur om oe
+    "???" "Huh?"
+    "Are you kidding me!?"
+    "/"You look very nice today!"/ Nice going doofus. What the actual hell was wrong with me!?"
+    "It's like I've never talked to people my entire life"
+    "I have to remedy the situation."
+    mc "What I m-meant to say is... how do you do!?"
+    
     mc "Huh?"
     "I turned to look behind me but I saw no one there."
     "That was weird. I was almost sure that someone was calling my name."

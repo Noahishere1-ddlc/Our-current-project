@@ -1,30 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "renpy/common/00start.rpy", line 240, in script call
-    call _splashscreen from _call_splashscreen_1
-  File "game/definitions/splash.rpy", line 299, in script
-    python:
-  File "game/definitions/splash.rpy", line 304, in <module>
-    try: process_list = subprocess.check_output("wmic process get Description", shell=True).lower().replace("\r", "").replace(" ", "").split("\n")
-TypeError: a bytes-like object is required, not 'str'
+While parsing C:\Users\Pandora\Desktop\RPY Projects\Our-current-project\game/definitions/definitions.rpy.
+Exception: Line with id Test_c6daba82 appeared twice, at game/chapter-0.rpy:5 and game/doki.rpy:5.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 240, in script call
-    call _splashscreen from _call_splashscreen_1
-  File "game/definitions/splash.rpy", line 299, in script
-    python:
-  File "C:\Users\Noah\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\Noah\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/definitions/splash.rpy", line 304, in <module>
-    try: process_list = subprocess.check_output("wmic process get Description", shell=True).lower().replace("\r", "").replace(" ", "").split("\n")
-TypeError: a bytes-like object is required, not 'str'
+  File "renpy/bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 490, in main
+    renpy.game.script.load_script() # sets renpy.game.script.
+  File "renpy/script.py", line 297, in load_script
+    self.load_appropriate_file(".rpyc", ".rpy", dir, fn, initcode)
+  File "renpy/script.py", line 809, in load_appropriate_file
+    self.finish_load(stmts, initcode, filename=lastfn) # type: ignore
+  File "renpy/script.py", line 427, in finish_load
+    self.translator.take_translates(all_stmts)
+  File "renpy/translation/__init__.py", line 169, in take_translates
+    n.filename, n.linenumber))
+Exception: Line with id Test_c6daba82 appeared twice, at game/chapter-0.rpy:5 and game/doki.rpy:5.
 
-Windows-10-10.0.19044 AMD64
-Ren'Py 8.0.3.22090809
-DDLC Mod Template – Python 2 Edition 4.2.1-Py2
-Mon Apr 17 02:18:25 2023
+Windows-10-10.0.22621 AMD64
+Ren'Py 7.5.3.22090809
+ 
+Mon Apr 17 18:15:56 2023

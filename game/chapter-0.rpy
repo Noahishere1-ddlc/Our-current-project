@@ -2,7 +2,7 @@ label Test:
     stop music fadeout 2.0
     scene black
     with dissolve_scene_full
-    play music mend fadein 1.5
+    play music m1 fadein 1.5
     nic "Sounds."
     nic "No... noises."
     nic "Words."

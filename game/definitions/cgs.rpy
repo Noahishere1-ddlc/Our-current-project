@@ -1,3 +1,5 @@
+## cgs.rpy
+
 # This file defines all the character graphics (CGs) in DDLC such as Yuri's
 # Chocolate CG and Natsuki's Manga CG.
 

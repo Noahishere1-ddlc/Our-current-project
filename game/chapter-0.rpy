@@ -134,4 +134,35 @@ label Test:
     mc "Oh! Um...I-its [player]. Nice to meet you...?"
     show sayori turned happ cm ce
     s "It's Sayori! Nice to meet you too, [player]~"
+    "Wait a minute...."
+    "Did I just make a friend?"
+    "T-that was quick!"
+    "But I don't know if Sayori considers me a friend..."
+    "I'll just have to ask her."
+    "Hell no! Imagine how awkward that'll be!"
+    "But I'll never know if I don't ask."
+    "What do I do? What do I do!?"
+    show sayori turned happ om oe
+    s "What were you doing anyway? Practising some new dance?"
+    mc "N-no... I was just looking for directions..."
+    show sayori turned doub cm oe
+    s "Hmm? Why? Were you lost?"
+    mc "Yeah... I'm new here actually. I was looking for directions to the teacher's office so I can find out what class I'm in."
+    "I had almost forgot what I was supposed to be doing in the first place:"
+    "Asking for directions."
+    show sayori turned happ om oe
+    s "I can show you the way."
+    mc "You'd be w-willing?"
+    show sayori turned happ om ce
+    s "Sure! We {i}are{/i} friends afterall~"
+    "She said it!"
+    "She confirmed it!"
+    "I'm so happy, I could break into song!"
+    mc "F-friends? D-didn't we just meet?"
+    show sayori turned sad cm oe
+    s "Oh... would you rather not?"
+    s "It's okay... I understand."
+    show sayori tap nerv om ce
+    s "I always get a little carried away..."
+    "......"
     

@@ -1,5 +1,3 @@
-## effects.rpy
-
 # This file defines all the effects in DDLC used in Act 2.
 
 init python:

@@ -22,7 +22,7 @@ label Test:
     "???" "My fractured mind."
     "???" "So we can meet once again."
     "???" "No matter what form you may take, I promise..."
-    "???" "I will save you."
+    "???" "I'll save you."
     "???" "All of you."
     scene bg residential_day
     with dissolve_scene_full
@@ -38,11 +38,11 @@ label Test:
     "I usually take the bus, but my parents thought it would be a good idea for me to walk around the area to familiarize myself with it."
     "I wonder what sort of people I'll meet at this new school?"
     "Would I be able to make new friends?"
-    "I sure hope so..."
+    "I hope so..."
     "I wasn't the most popular kid in my old one, but I got along pretty well with my classmates."
     "Maybe I could even get a girlfriend?"
     "Who am I kidding?"
-    "I'm pretty bland so it wouldn't suprise me if no one wanted to date me."
+    "I'm pretty bland, so it wouldn't surprise me if no one wanted to date me."
     "They would get to know me on the surface level, my classmates and teachers."
     "And then, not really speak to me at all..."
     "I take a glance at my wristwatch."
@@ -59,10 +59,10 @@ label Test:
     with wipeleft_scene
     stop music fadeout 2.0
     "I made it on time after all."
-    "The school's a lot bigger than it was shown on the website and pamphlets."
+    "The school looks a lot bigger than it was shown on the website and pamphlets."
     "A lot of other students are also arriving right as I get here."
     "Guess I didn't have to rush after all..."
-    "The scenary looks peaceful"
+    "The scenary looks peaceful."
     "I can see some students chatting with their friends."
     "Others are rummaging through their lockers and getting to classes."
     "Now that I think about it..."
@@ -92,7 +92,6 @@ label Test:
     "It's like I've never talked to people my entire life"
     "I have to remedy the situation."
     mc "What I m-meant to say is... how do you do!?"
-    
     mc "Huh?"
     "I turned to look behind me but I saw no one there."
     "That was weird. I was almost sure that someone was calling my name."

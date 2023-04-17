@@ -88,7 +88,7 @@ label Test:
     show sayori turned lsur om oe
     "???" "Huh?"
     "Are you kidding me!?"
-    "/"You look very nice today!"/ Nice going doofus. What the actual hell was wrong with me!?"
+    "\"You look very nice today!\" Nice going doofus. What the actual hell was wrong with me!?"
     "It's like I've never talked to people my entire life"
     "I have to remedy the situation."
     mc "What I m-meant to say is... how do you do!?"

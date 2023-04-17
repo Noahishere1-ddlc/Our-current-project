@@ -1,49 +1,9 @@
-Mon Apr 17 18:41:26 2023
+Mon Apr 17 18:44:09 2023
 Windows-10-10.0.22621
 Ren'Py 7.5.3.22090809
  
 
-Bootstrap to the start of init.init took 0.26s
+Bootstrap to the start of init.init took 0.23s
 Early init took 0.01s
-Loader init took 0.07s
-Loading error handling took 0.11s
-Loading script took 8.87s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: WindowsError(126, 'The specified module could not be found')
-Running init code took 0.57s
-Loading analysis data took 0.00s
-Analyze and compile ATL took 0.32s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Pandora\\AppData\\Roaming/RenPy/backups\\Our-current-project':
-Dump and make backups. took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: "Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.22s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.08s
-Save screen analysis took 0.07s
-Prepare screens took 0.29s
-Save pyanalysis. took 0.15s
-Save bytecode. took 0.10s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.20s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Intel'
-Renderer: 'Intel(R) HD Graphics 3000'
-Version: '3.1.0 - Build 9.17.10.4459'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
-Maximum texture size: 4096x4096
+Loader init took 0.09s
+Loading error handling took 0.06s

@@ -85,13 +85,15 @@ label Test:
     "???" "Hello? Earth to um... whoever you are."
     "This is not good. I gotta say something before she gets the wrong idea."
     mc "U-um... you look very nice today...?"
-    show sayori turned lsur om oe
+    show sayori turned lsur om oe at t11 zorder 1
     "???" "Huh?"
     "Are you kidding me!?"
     "\"You look very nice today!\" Nice going doofus. What the actual hell was wrong with me!?"
     "It's like I've never talked to people my entire life"
     "I have to remedy the situation."
     mc "What I m-meant to say is... how do you do!?"
+    show sayori turned curi cm oe at t11 zorder 1
+    
     mc "Huh?"
     "I turned to look behind me but I saw no one there."
     "That was weird. I was almost sure that someone was calling my name."

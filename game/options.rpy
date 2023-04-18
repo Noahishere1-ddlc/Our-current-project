@@ -7,7 +7,7 @@
 # This file customizes what your mod is and and how it starts and builds!
 
 # This variable declares whether Developer Mode is on or off in the mod.
-define config.developer = True
+define config.developer = False
 
 # This controls what your mod is called.
 define config.name = "Doki Doki: Fractured Mind"
@@ -91,7 +91,7 @@ define config.save_directory = "DDLCFracturedMind"
 define config.window_icon = "gui/window_icon.png"
 
 # This controls whether your mod allows the player to skip dialogue.
-define config.allow_skipping = True
+define config.allow_skipping = False
 
 # This controls whether your mod saves automatically.
 define config.has_autosave = False

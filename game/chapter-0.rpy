@@ -6,7 +6,7 @@ label Test:
     $ renpy.pause(11, hard=True)
     stop movie
     pause 1.0
-    play music angelic fadein 1.5
+    play music angelic
     nic "Sentience."
     nic "Awareness."
     nic "Existence."

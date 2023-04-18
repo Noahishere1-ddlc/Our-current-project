@@ -1,6 +1,6 @@
 label Test:
     stop music fadeout 2.0
-    play movie "mod_assets/cutscenes/Cutscene1.webm"
+    play movie "mod_assets/cutscenes/Cutscene1a.webm"
     $ renpy.pause(17, hard=True)
     stop movie
     pause 1.0

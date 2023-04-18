@@ -147,6 +147,7 @@ define audio.tnatsuki = "<loop 4.444>bgm/5_natsuki.ogg" # Okay Everyone! (Natsuk
 define audio.tyuri = "<loop 4.444>bgm/5_yuri.ogg" # Okay Everyone! (Yuri)
 
 define audio.t5b = "<loop 4.444>bgm/5.ogg"
+define audio.angelic "mod_assets/bgm/Angelic.mp3"
 define audio.t5c = "<loop 4.444>bgm/5.ogg"
 define audio.t6 = "<loop 10.893>bgm/6.ogg" # Play With Me - Yuri/Natsuki Theme
 define audio.t6g = "<loop 10.893>bgm/6g.ogg"

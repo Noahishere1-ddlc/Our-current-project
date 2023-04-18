@@ -22,10 +22,10 @@ label start:
     # To add a character, use the following example below: 
     #   $ mi_name = "Mike". 
     # Don't forget to add the character to 'definitions.rpy'!
-    $ s_name = "???"
-    $ m_name = "Girl 3"
-    $ n_name = "Girl 2"
-    $ y_name = "Girl 1"
+    $ s_name = "Sayori"
+    $ m_name = "Monika"
+    $ n_name = "Natsuki"
+    $ y_name = "Yuri"
 
     # This variable controls whether the quick menu in the textbox is enabled.
     $ quick_menu = True

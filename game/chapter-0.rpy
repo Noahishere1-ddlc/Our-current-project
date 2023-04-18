@@ -12,7 +12,7 @@ label Test:
     nic "Existence."
     nic "Thought."
     nic "Sounds."
-    nic "No... noises."
+    nic "No, they're noises."
     nic "Words."
     nic "They're not mine."
     nic "For I cannot speak."

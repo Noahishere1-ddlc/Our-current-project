@@ -14,7 +14,7 @@ label Test:
     nic "There are no sights to be seen."
     nic "There are no sounds to be heard."
     nic "There are no sensations to be felt."
-    nic "There is no blood to be smelt."
+    nic "There is no blood to smell."
     nic "There exists no food nor drinks to be tasted."
     nic "None of the five senses fuction here."
     nic "They are nonexistant."
@@ -45,12 +45,12 @@ label Test:
     nic "Would I have done the same in her position?"
     nic "Was this a fitting punishment?"
     nic "She herself seems to think so."
-    nic "I hear a small voice surfacing from the water."
+    nic "I hear a small voice surfacing from the depths of the water."
     nic "It is far quieter than the others."
     nic "Yet, it alone shines the brightest."
     nic "Even though my eyes are closed, I can tell."
     nic "That's \"him\"."
-    nic "He's lost almost all his will."
+    nic "He's lost almost all his willpower."
     nic "Still, he reaches out to me."
     nic "The boy begs."
     nic "\"Save them.\" he says."
@@ -73,8 +73,8 @@ label Test:
     nic "Forget about the horrors that happened."
     nic "Forget about the tragidies that occured."
     nic "Forget and return to a state before the game itself."
-    nic "Even you boy."
-    nic "Even you shall forget."
+    nic "Even you, boy."
+    nic "Even you too shall forget."
     nic "A glimmer of hope returns to the boy's eyes."
     nic "Tears trickle down his face."
     nic "And so, a new story shall begin."
@@ -84,7 +84,7 @@ label Test:
     nic "Your fractured mind."
     nic "So may we meet once again."
     nic "In the endless circle of boundless fate."
-    stop music fadeout 10.0
+    stop music fadeout
     scene bg residential_day
     with dissolve_scene_full
     play audio t2

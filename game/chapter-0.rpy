@@ -159,14 +159,18 @@ label Test:
     mc "You'd be w-willing?"
     show sayori turned happ om ce
     s "Sure! We {i}are{/i} friends afterall~"
-    "She said it!"
-    "She confirmed it!"
-    "I'm so happy, I could break into song!"
-    mc "F-friends? D-didn't we just meet?"
+    "....What?"
+    "Did... she just say \"friend?\""
+    "Well, that confirms it!"
     show sayori turned sad cm oe
-    s "Oh... would you rather not?"
-    s "It's okay... I understand."
-    show sayori tap nerv om ce
-    s "I always get a little carried away..."
-    "......"
+    s "[player], you're making a really weird face right now..."
+    mc "S-sorry. I'm not used to making friends so quickly."
+    mc "Or talking to people..."
+    mc "Or standing out..."
+    show sayori turned sad om oe
+    s "Talk about low self esteem."
+    mc "Tell me about it..."
+    mc "Anyway, we should get to the office already. L-lead the way please?"
+    show sayori turned happ om ce
+    s "Sure thing~"
     

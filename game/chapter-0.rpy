@@ -2,7 +2,7 @@ label Test:
     stop music fadeout 2.0
     scene black
     with dissolve_scene_full
-    $ renpy.movie_cutscene "mod_assets/cutscenes/Cutscene1.mp4"
+    $ renpy.movie_cutscene ("mod_assets/cutscenes/Cutscene1.mp4", delay=None, loops=0, stop_music=True)
     play music m1 fadein 1.5
     nic "Sentience."
     nic "Awareness."

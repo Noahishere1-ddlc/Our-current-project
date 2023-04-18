@@ -1,11 +1,11 @@
 label Test:
     stop music fadeout 2.0
-    scene bg star_sky
-    with dissolve_scene_full
     play movie "mod_assets/cutscenes/Cutscene1.webm"
     $ renpy.pause(11, hard=True)
     stop movie
     pause 1.0
+    scene bg star_sky
+    with dissolve_scene_full
     play music angelic
     nic "Sentience."
     nic "Awareness."

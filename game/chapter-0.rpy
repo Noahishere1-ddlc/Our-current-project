@@ -84,7 +84,7 @@ label Test:
     nic "Your fractured mind."
     nic "So may we meet once again."
     nic "In the endless circle of boundless fate."
-    stop music fadeout
+    stop music fadeout 1.0
     scene bg residential_day
     with dissolve_scene_full
     play audio t2

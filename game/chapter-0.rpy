@@ -4,7 +4,7 @@ label Test:
     $ renpy.pause(11, hard=True)
     stop movie
     pause 1.0
-    scene bg star_sky
+    scene black
     with dissolve_scene_full
     play music angelic
     nic "Sentience."

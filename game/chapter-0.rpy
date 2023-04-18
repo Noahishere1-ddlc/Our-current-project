@@ -6,7 +6,7 @@ label Test:
     $ renpy.pause(11, hard=True)
     stop movie
     pause 1.0
-    play music m1 fadein 1.5
+    play music angelic fadein 1.5
     nic "Sentience."
     nic "Awareness."
     nic "Existence."
@@ -173,4 +173,3 @@ label Test:
     mc "Anyway, we should get to the office already. L-lead the way please?"
     show sayori turned happ om ce
     s "Sure thing~"
-    

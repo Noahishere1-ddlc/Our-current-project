@@ -147,7 +147,7 @@ define audio.tnatsuki = "<loop 4.444>bgm/5_natsuki.ogg" # Okay Everyone! (Natsuk
 define audio.tyuri = "<loop 4.444>bgm/5_yuri.ogg" # Okay Everyone! (Yuri)
 
 define audio.t5b = "<loop 4.444>bgm/5.ogg"
-define audio.angelic = "<loop 4.444>mod_assets/bgm/Angelic.mp3"
+define audio.angelic = "mod_assets/bgm/Angelic.mp3"
 define audio.t5c = "<loop 4.444>bgm/5.ogg"
 define audio.t6 = "<loop 10.893>bgm/6.ogg" # Play With Me - Yuri/Natsuki Theme
 define audio.t6g = "<loop 10.893>bgm/6g.ogg"
@@ -199,6 +199,7 @@ image bg bstop_noon = "mod_assets/bg/bstopnoon.jpg"
 image bg bstop_night = "mod_assets/bg/bstopnight.jpg"
 image bg bstop_morning = "mod_assets/bg/bstopmorning.jpg"
 image bg bstop_evening = "mod_assets/bg/bstopevening.jpg"
+image bg star_sky = "mod_assets/bg/star_sky.jpg"
 
 
 image bg residential_day = "bg/residential.png" # Start of DDLC BG

@@ -184,7 +184,7 @@ label Test:
     mc "Um...t-thanks?"
     nic "{i}See?{/i} Just like that!"
     mc "How was that f-funny!?"
-    "All I did was shout greetings in different languages..."
+    "All I did was stutter..."
     "This girl sure has a weird sense of humor."
     show sayori turned happ om oe
     nic "What's your name?"
@@ -226,3 +226,5 @@ label Test:
     mc "Anyway, we should get to the office already. L-lead the way please?"
     show sayori turned happ om ce
     s "Sure thing~"
+    
+    #P.S. Need a bg for teachers room. I'll prob find it soon but search for it if you have free time.

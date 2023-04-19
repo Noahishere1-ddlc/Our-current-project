@@ -1,3 +1,8 @@
+transform yshake:
+ease .06 yoffset 30
+ease .06 yoffset -30
+ease .01 yoffset 0
+repeat
 label Test:
     stop music fadeout 0.5
     scene black
@@ -120,8 +125,8 @@ label Test:
     "Maybe I could even get a girlfriend?"
     "Who am I kidding?"
     "I'm pretty bland, so it wouldn't surprise me if no one wanted to date me."
-    "They would get to know me on the surface level, my classmates and teachers."
-    "And then, not really speak to me at all..."
+    "My classmates and teaches would get to know me on a base level."
+    "And then not really speak to me at all..."
     "I take a glance at my wristwatch."
     "I'm running late."
     "I'm not going to make it on time if I don't hurry."
@@ -153,6 +158,8 @@ label Test:
     mc "Eh?"
     nic "You look really suspicious right now, you know?"
     "I turn to face the direction of the voice."
+    scene bg school_building
+    with wipeleft_scene
     show sayori 1b at t11 zorder 1
     "I come face to face with a student."
     "She has a red ribbon on her head."
@@ -160,11 +167,11 @@ label Test:
     "I had no way to be sure though."
     show sayori turned neut om oe at t11 zorder 1
     nic "Hello? Earth to um... whoever you are."
-    "This is not good. I gotta say something before she gets the wrong idea."
+    "This is not good. I gotta say something before she thinks I'm a weirdo."
     mc "U-um... you look very nice today...?"
     show sayori turned lsur om oe at t11 zorder 1
     nic "Huh?"
-    play music soliloquy fadein 1.5
+    play music t7 fadein 1.5
     "Are you kidding me!?"
     "\"You look very nice today!\" Nice going doofus. What the actual hell is wrong with me!?"
     "It's like I haven't talked to people my entire life!"
@@ -205,6 +212,7 @@ label Test:
     mc "Oh! Um...I-its [player]. Nice to meet you...?"
     show sayori turned happ cm ce
     s "It's Sayori! Nice to meet you too, [player]~"
+    stop music
     "Wait a minute...."
     "Did I just make a friend?"
     "T-that was quick!"
@@ -240,5 +248,16 @@ label Test:
     mc "Anyway, we should get to the office already. L-lead the way please?"
     show sayori turned happ om ce
     s "Sure thing~"
-    
-    #P.S. Need a bg for teachers room. I'll prob find it soon but search for it if you have free time.
+    scene bg corridor
+    with dissolve_scene_full
+    "Around half a hour later, I find myself standing outside my classroom waiting for the homeroom teacher."
+    "Sayori showed me the way to the office and even accompanied me."
+    "Unfortunately, I had some forms to fill so I told her she should go to own class before she's late."
+    "I still can't believe I made a friend this quickly."
+    "And she's a girl to boot."
+    "Maybe this was the beginning of a beautiful romance..."
+    "Fuhihi..."
+    "I get so lost in my delusions that I don't notice the man walking up to me."
+    "Mr. Adams" "Hey there kiddo. You're [player] right? Call me Mr. Adams. I'll be your homeroom teacher for the year."
+    $ renpy.show_layer_at(yshake, "master")
+    mc "Huh!?"

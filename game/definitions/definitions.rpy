@@ -193,13 +193,13 @@ image end:
     "gui/end.png"
 
 # Custom backgrounds
-image bg school_building = "mod_assets/bg/school_building.jpg"
-image bg classroom_afternoon = "mod_assets/bg/classroom_afternoon.jpg"
-image bg bstop_noon = "mod_assets/bg/bstopnoon.jpg"
-image bg bstop_night = "mod_assets/bg/bstopnight.jpg"
-image bg bstop_morning = "mod_assets/bg/bstopmorning.jpg"
-image bg bstop_evening = "mod_assets/bg/bstopevening.jpg"
-image bg star_sky = "mod_assets/bg/star_sky.jpg"
+image bg school_building = "mod_assets/bg/school_building.png"
+image bg classroom_afternoon = "mod_assets/bg/classroom_afternoon.png"
+image bg bstop_noon = "mod_assets/bg/bstopnoon.png"
+image bg bstop_night = "mod_assets/bg/bstopnight.png"
+image bg bstop_morning = "mod_assets/bg/bstopmorning.png"
+image bg bstop_evening = "mod_assets/bg/bstopevening.png"
+image bg star_sky = "mod_assets/bg/star_sky.png"
 
 
 image bg residential_day = "bg/residential.png" # Start of DDLC BG

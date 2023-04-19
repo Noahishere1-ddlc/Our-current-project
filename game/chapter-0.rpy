@@ -254,6 +254,3 @@ label Test:
     "Fuhihi..."
     "I get so lost in my delusions that I don't notice the man walking up to me."
     "Mr. Adams" "Hey there kiddo. You're [player] right? Call me Mr. Adams. I'll be your homeroom teacher for the year."
-    scene bg corridor
-    with vpunch
-    mc "Huh!?"

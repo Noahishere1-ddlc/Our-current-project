@@ -134,7 +134,7 @@ label Test:
     "After a few more minutes of walking..."
     scene bg school_building
     with wipeleft_scene
-    stop music
+    stop sound
     "I made it on time after all."
     "The school looks a lot bigger than it was shown on the website and pamphlets."
     "A lot of other students are also arriving right as I get here."

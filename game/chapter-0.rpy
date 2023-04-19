@@ -242,6 +242,7 @@ label Test:
     mc "Anyway, we should get to the office already. L-lead the way please?"
     show sayori turned happ om ce
     s "Sure thing~"
+    stop music
     scene bg corridor
     with dissolve_scene_full
     "Around half a hour later, I find myself standing outside my classroom waiting for the homeroom teacher."
@@ -282,3 +283,4 @@ label Test:
     ma "Great."
     play audio closet_open
     "Mr. Adams enters the classroom."
+    return

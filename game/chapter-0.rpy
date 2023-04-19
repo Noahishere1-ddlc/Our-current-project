@@ -103,7 +103,7 @@ label Test:
     stop music fadeout 1.0
     scene bg residential_day
     with dissolve_scene_full
-    play audio t2
+    play music t2
     "The sun is really hot today."
     "It's times like these when I wish I had some superpowers."
     "Imagine how useful teleportation would be."
@@ -134,7 +134,7 @@ label Test:
     "After a few more minutes of walking..."
     scene bg school_building
     with wipeleft_scene
-    stop sound
+    stop music fadeout 1.0
     "I made it on time after all."
     "The school looks a lot bigger than it was shown on the website and pamphlets."
     "A lot of other students are also arriving right as I get here."

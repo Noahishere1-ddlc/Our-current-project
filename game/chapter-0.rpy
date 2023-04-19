@@ -151,6 +151,7 @@ label Test:
     "This is gonna be harder than I thought..."
     nic "What are you doing?"
     mc "Eh?"
+    stop music
     nic "You look really suspicious right now, you know?"
     "I turn to face the direction of the voice."
     scene bg school_building
@@ -166,7 +167,6 @@ label Test:
     mc "U-um... you look very nice today...?"
     show sayori turned lsur om oe at t11 zorder 1
     nic "Huh?"
-    stop music
     play music t7 fadein 1.5
     "Are you kidding me!?"
     "\"You look very nice today!\" Nice going doofus. What the actual hell is wrong with me!?"

@@ -63,4 +63,4 @@ IOError: Couldn't find file 'gui/window_icon.png'.
 Linux-6.2.11-arch1-1-x86_64-with-glibc2.2.5 x86_64
 Ren'Py 7.5.3.22090809
 Doki Doki: Fractured Mind Beta 1
-Wed Apr 19 21:23:22 2023
+Wed Apr 19 21:24:42 2023

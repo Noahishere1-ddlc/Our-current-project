@@ -133,7 +133,7 @@ label Test:
     "It doesn't matter."
     "After a few more minutes of walking..."
     scene bg school_building
-    with wipeleft_scene
+    with wipeleft
     stop music fadeout 1.0
     "I made it on time after all."
     "The school looks a lot bigger than it was shown on the website and pamphlets."
@@ -282,5 +282,17 @@ label Test:
     mc "Yeah, I do."
     ma "Great."
     play audio closet_open
-    "Mr. Adams enters the classroom."
+    "Mr. Adams opens the door to the classroom."
+    "He gestures me to follow him."
+    "Alright [player], this is it..."
+    "Just be yourself and stay calm. Easy right?"
+    "Yeah, as if."
+    "Both of us enter together."
+    scene bg class_day
+    with wiperight_scene
+    "The classroom is dead silent."
+    "It's a little bigger than it looks from the outside."
+    "At first, the only thing on my mind was saying the greeting I memorized without stuttering."
+    "And then...."
+    nic "[PLAYER]!?"
     return

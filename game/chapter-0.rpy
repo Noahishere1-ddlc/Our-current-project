@@ -294,5 +294,9 @@ label Test:
     "It's a little bigger than it looks from the outside."
     "At first, the only thing on my mind was saying the greeting I memorized without stuttering."
     "And then...."
-    nic "[PLAYER]!?"
-    return
+    show sayori turned shoc cm oe
+    s "[player]!?"
+    mc "Eh?"
+    mc "Wait a minute... Sayori!?"
+    ma "Oh, seems like you know eachother already."
+    

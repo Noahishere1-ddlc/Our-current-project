@@ -1,8 +1,3 @@
-## script.rpy
-
-# This is the main script that Ren'Py calls upon to start
-# your mod's story! 
-
 label start:
 
     # This label configures the anticheat number for the game after Act 1.

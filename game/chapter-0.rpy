@@ -96,11 +96,12 @@ label Test:
     nic "Your fractured mind."
     nic "So you may meet them once again."
     nic "In the endless circle of boundless fate."
+    window hide
     play movie "mod_assets/cutscenes/Cutscene2.webm"
     $ renpy.pause (10, hard=True)
     stop movie
-    pause 1.0
-    stop music
+    window auto
+    stop music fadeout 2.0
     scene bg residential_day
     with dissolve_scene_full
     play music t2
@@ -185,9 +186,9 @@ label Test:
     "I take a deep breath."
     "I think I'm calm enough to speak now."
     mc "S-sorry. I'm not really good with talking to people."
-    show sayori turned neut cm oe
+    show sayori turned neut om oe
     nic "....."
-    show sayori turned laug cm ce
+    show sayori turned laug om ce
     "Suddenly the girl burst out laughing."
     "She was laughing so much, she started clutching her sides."
     mc "Huh?"
@@ -198,6 +199,7 @@ label Test:
     "I certainly don't mind being complimented though."
     "If that {i}was{/i} a compliment in the first place and not a insult."
     mc "Um...t-thanks?"
+    show sayori turned happ om oe
     nic "{i}See?{/i} Just like that!"
     mc "How was that f-funny!?"
     "All I did was stutter..."
@@ -215,10 +217,10 @@ label Test:
     "Hell no! Imagine how awkward that'll be!"
     "But I'll never know if I don't ask."
     "What do I do? What do I do!?"
-    show sayori turned happ om oe
+    show sayori turned happ cm oe
     s "What were you doing anyway? Practising some new dance?"
     mc "N-no... I was just looking for directions..."
-    show sayori turned doub cm oe
+    show sayori turned neut cm oe
     s "Hmm? Why? Were you lost?"
     mc "Yeah... I'm new here actually. I was looking for directions to the teacher's office so I can find out what class I'm in."
     "I had almost forgot what I was supposed to be doing in the first place:"
@@ -231,7 +233,7 @@ label Test:
     "....What?"
     "Did... she just say \"friend?\""
     "Well, that confirms it!"
-    show sayori turned sad cm oe
+    show sayori turned nerv cm oe
     s "[player], you're making a really weird face right now..."
     mc "S-sorry. I'm not used to making friends so quickly."
     mc "Or talking to people..."
@@ -294,9 +296,9 @@ label Test:
     "It's a little bigger than it looks from the outside."
     "At first, the only thing on my mind was saying the greeting I memorized without stuttering."
     "And then...."
-    show sayori turned shoc cm oe
+    show sayori turned shoc cm oe at t11 zorder 2
     s "[player]!?"
     mc "Eh?"
     mc "Wait a minute... Sayori!?"
-    ma "Oh, seems like you know eachother already."
+    ma "Oh, seems like you know each other already."
     

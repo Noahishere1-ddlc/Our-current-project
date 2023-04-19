@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label Test is defined twice, at File "game/chapter-0.rpy", line 1:
+label Test:
+and File "game/script.rpy", line 6:
+label Test:
+
+
+Ren'Py Version: Ren'Py 7.5.3.22090809
+Wed Apr 19 13:26:54 2023

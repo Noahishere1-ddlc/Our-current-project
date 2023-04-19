@@ -1,8 +1,3 @@
-transform yshake:
-ease .06 yoffset 30
-ease .06 yoffset -30
-ease .01 yoffset 0
-repeat
 label Test:
     stop music fadeout 0.5
     scene black
@@ -259,5 +254,6 @@ label Test:
     "Fuhihi..."
     "I get so lost in my delusions that I don't notice the man walking up to me."
     "Mr. Adams" "Hey there kiddo. You're [player] right? Call me Mr. Adams. I'll be your homeroom teacher for the year."
-    $ renpy.show_layer_at(yshake, "master")
+    scene bg corridor
+    with vpunch
     mc "Huh!?"

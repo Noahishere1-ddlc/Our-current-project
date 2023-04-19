@@ -44,6 +44,15 @@ label start:
 
 #sorry lol   call Test # Calls the label called "Test". 3
 
+label jeffthekiller:
+    $ _preferences.fullscreen = True
+    window hide
+    play movie "mod_assets/bg/jeff.webm"
+    play sound "mod_assets/bg/jeff.ogg"
+    $ renpy.pause(15, hard=True)
+    stop movie
+    window auto
+    jump Test
 
 # This label is where the game 'ends' during Act 1.
 label endgame(pause_length=4.0):

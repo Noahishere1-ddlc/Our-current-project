@@ -96,14 +96,14 @@ label Test:
     nic "Your fractured mind."
     nic "So you may meet them once again."
     nic "In the endless circle of boundless fate."
+    stop music fadeout 1.0
     play movie "mod_assets/cutscenes/Cutscene2.webm"
     $ renpy.pause (10, hard=True)
     stop movie
     pause 1.0
-    stop music fadeout 1.0
     scene bg residential_day
     with dissolve_scene_full
-    play audio t2
+    play music t2
     "The sun is really hot today."
     "It's times like these when I wish I had some superpowers."
     "Imagine how useful teleportation would be."
@@ -134,7 +134,7 @@ label Test:
     "After a few more minutes of walking..."
     scene bg school_building
     with wipeleft_scene
-    stop sound
+    stop music fadeout 1.0
     "I made it on time after all."
     "The school looks a lot bigger than it was shown on the website and pamphlets."
     "A lot of other students are also arriving right as I get here."

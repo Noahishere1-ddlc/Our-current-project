@@ -96,11 +96,11 @@ label Test:
     nic "Your fractured mind."
     nic "So you may meet them once again."
     nic "In the endless circle of boundless fate."
-    stop music fadeout 1.0
     play movie "mod_assets/cutscenes/Cutscene2.webm"
     $ renpy.pause (10, hard=True)
     stop movie
     pause 1.0
+    stop music
     scene bg residential_day
     with dissolve_scene_full
     play music t2

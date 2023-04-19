@@ -1,7 +1,7 @@
 label Test:
     scene black
     with dissolve_scene_full
-    stop music fadeout 2.0
+    stop music
     play movie "mod_assets/cutscenes/Cutscene1a.webm"
     $ renpy.pause(17, hard=True)
     stop movie

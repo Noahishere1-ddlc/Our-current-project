@@ -42,7 +42,7 @@ label start:
     $ allow_skipping = True
     $ config.allow_skipping = True
 
-call Test # Calls the label called "Test". 3
+    call Test # Calls the label called "Test".
 
 
 # This label is where the game 'ends' during Act 1.

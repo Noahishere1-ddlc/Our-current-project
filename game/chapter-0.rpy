@@ -96,11 +96,11 @@ label Test:
     nic "Your fractured mind."
     nic "So you may meet them once again."
     nic "In the endless circle of boundless fate."
-    stop music fadeout 1.0
     play movie "mod_assets/cutscenes/Cutscene2.webm"
     $ renpy.pause (10, hard=True)
     stop movie
     pause 1.0
+    stop music
     scene bg residential_day
     with dissolve_scene_full
     play music t2
@@ -133,7 +133,7 @@ label Test:
     "It doesn't matter."
     "After a few more minutes of walking..."
     scene bg school_building
-    with wipeleft_scene
+    with wipeleft
     stop music fadeout 1.0
     "I made it on time after all."
     "The school looks a lot bigger than it was shown on the website and pamphlets."
@@ -193,7 +193,7 @@ label Test:
     mc "Huh?"
     "What's so funny? Is she making fun of me?"
     show sayori turned happ om ce
-    nic "Your reactions are so funny~"
+    nic "Your reactions are hilarious~"
     "Well, that's not what I expected at all."
     "I certainly don't mind being complimented though."
     "If that {i}was{/i} a compliment in the first place and not a insult."
@@ -207,7 +207,6 @@ label Test:
     mc "Oh! Um...I-its [player]. Nice to meet you...?"
     show sayori turned happ cm ce
     s "It's Sayori! Nice to meet you too, [player]~"
-    stop music
     "Wait a minute...."
     "Did I just make a friend?"
     "T-that was quick!"
@@ -243,6 +242,7 @@ label Test:
     mc "Anyway, we should get to the office already. L-lead the way please?"
     show sayori turned happ om ce
     s "Sure thing~"
+    stop music
     scene bg corridor
     with dissolve_scene_full
     "Around half a hour later, I find myself standing outside my classroom waiting for the homeroom teacher."
@@ -253,4 +253,50 @@ label Test:
     "Maybe this was the beginning of a beautiful romance..."
     "Fuhihi..."
     "I get so lost in my delusions that I don't notice the man walking up to me."
-    "Mr. Adams" "Hey there kiddo. You're [player] right? Call me Mr. Adams. I'll be your homeroom teacher for the year."
+    ma "Hey there kiddo. You're [player] right? Call me Mr. Adams. I'll be your homeroom teacher for the year."
+    scene bg corridor
+    with vpunch
+    mc "Huh!?"
+    mc "Ah!"
+    mc "R-right!"
+    mc "My n-name is [player]!"
+    mc "P-pleased to make your acquaintance!"
+    ma "Geez, kid. Aren't you a bundle of nerves..."
+    ma "Listen kid. The students in this school are really nice people."
+    ma "I know you're new here. Change {i}is{/i} scary."
+    ma "All you need is some friends though."
+    ma "Next thing you know, you'll be focusing on having fun with them."
+    ma "Or talking to that girl you like."
+    ma "Don't forget schoolwork."
+    ma "I guess what I'm trying to say is..."
+    ma "Just go with the flow."
+    ma "And try to have fun."
+    mc "Thanks, Mr. Adams. That helped."
+    "He has a point."
+    "I might have been hiding it, but..."
+    "I'm nervous about not fitting in."
+    "I know its childish."
+    "I just can't help it, you know?"
+    ma "No problem kid."
+    ma "Let's go. I'll help introduce you to everyone. Do you have a greeting memorized?"
+    mc "Yeah, I do."
+    ma "Great."
+    play audio closet_open
+    "Mr. Adams opens the door to the classroom."
+    "He gestures me to follow him."
+    "Alright [player], this is it..."
+    "Just be yourself and stay calm. Easy right?"
+    "Yeah, as if."
+    "Both of us enter together."
+    scene bg class_day
+    with wiperight_scene
+    "The classroom is dead silent."
+    "It's a little bigger than it looks from the outside."
+    "At first, the only thing on my mind was saying the greeting I memorized without stuttering."
+    "And then...."
+    show sayori turned shoc cm oe
+    s "[player]!?"
+    mc "Eh?"
+    mc "Wait a minute... Sayori!?"
+    ma "Oh, seems like you know eachother already."
+    

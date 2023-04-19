@@ -1,48 +1,64 @@
-Tue Apr 18 20:27:26 2023
-Windows-10-10.0.22621
+Wed Apr 19 21:56:05 2023
+Windows-10-10.0.19041
 Ren'Py 7.5.3.22090809
  
 
-Bootstrap to the start of init.init took 0.20s
-Early init took 0.01s
-Loader init took 0.06s
-Loading error handling took 0.04s
-Loading script took 0.52s
-Loading save slot metadata. took 0.00s
+Bootstrap to the start of init.init took 0.12s
+Early init took 0.00s
+Loader init took 0.05s
+Loading error handling took 0.06s
+Loading script took 1.74s
+Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Faled to initialize steam: WindowsError(126, 'The specified module could not be found')
-Running init code took 0.30s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.11s
-Index archives took 0.00s
-Dump and make backups. took 0.12s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
+
+Full traceback:
+  File "game/definitions/definitions.rpy", line 1601, in script
+    define ma = Charater('Mr. Adams', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+  File "renpy/ast.py", line 2441, in execute
+    self.set()
+  File "renpy/ast.py", line 2455, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "renpy/python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/definitions/definitions.rpy", line 1601, in <module>
+    define ma = Charater('Mr. Adams', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+NameError: name 'Charater' is not defined
+
+While running game code:
+  File "game/definitions/definitions.rpy", line 1601, in script
+    define ma = Charater('Mr. Adams', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+  File "game/definitions/definitions.rpy", line 1601, in <module>
+    define ma = Charater('Mr. Adams', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+NameError: name 'Charater' is not defined
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: "Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.16s
 
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Intel'
-Renderer: 'Intel(R) HD Graphics 3000'
-Version: '3.1.0 - Build 9.17.10.4459'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
-Maximum texture size: 4096x4096
+Full traceback:
+  File "renpy/bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 558, in main
+    renpy.game.context().run(node)
+  File "game/definitions/definitions.rpy", line 1601, in script
+    define ma = Charater('Mr. Adams', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+  File "game/definitions/definitions.rpy", line 1601, in script
+    define ma = Charater('Mr. Adams', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+  File "renpy/ast.py", line 2441, in execute
+    self.set()
+  File "renpy/ast.py", line 2455, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "renpy/python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/definitions/definitions.rpy", line 1601, in <module>
+    define ma = Charater('Mr. Adams', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+NameError: name 'Charater' is not defined
+
+While running game code:
+  File "game/definitions/definitions.rpy", line 1601, in script
+    define ma = Charater('Mr. Adams', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+  File "game/definitions/definitions.rpy", line 1601, in script
+    define ma = Charater('Mr. Adams', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+  File "game/definitions/definitions.rpy", line 1601, in <module>
+    define ma = Charater('Mr. Adams', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+NameError: name 'Charater' is not defined

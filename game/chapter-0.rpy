@@ -134,7 +134,7 @@ label Test:
     "After a few more minutes of walking..."
     scene bg school_building
     with wipeleft_scene
-    stop music fadeout 2.0
+    stop music
     "I made it on time after all."
     "The school looks a lot bigger than it was shown on the website and pamphlets."
     "A lot of other students are also arriving right as I get here."
@@ -151,7 +151,6 @@ label Test:
     "This is gonna be harder than I thought..."
     nic "What are you doing?"
     mc "Eh?"
-    stop music
     nic "You look really suspicious right now, you know?"
     "I turn to face the direction of the voice."
     scene bg school_building

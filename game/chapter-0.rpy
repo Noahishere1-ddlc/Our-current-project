@@ -113,4 +113,4 @@ label Test:
     "Some would even try to reject it."
     "I let out a sigh and checked the time."
     "Class was almost over."
-    "I was bored out of my mind.
+    "I was bored out of my mind."

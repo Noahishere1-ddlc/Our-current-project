@@ -114,3 +114,6 @@ label Test:
     "I let out a sigh and checked the time."
     "Class was almost over."
     "I was bored out of my mind."
+    "It was just my third week here at my new school, but I was already getting sick of the classes."
+    "I don't particularly hate studying."
+    "I"

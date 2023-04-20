@@ -102,9 +102,8 @@ label Test:
     stop movie
     window auto
     stop music fadeout 2.0
-    scene bg residential_day
+    scene bg Class
     with dissolve_scene_full
-    play music t2
     "Let me ask you a question"
     "Let's say the universe started existing mere seconds ago."
     "That everything in your life was fabricated."

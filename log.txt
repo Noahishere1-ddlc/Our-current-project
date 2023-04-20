@@ -1,134 +1,63 @@
-Wed Apr 19 21:24:40 2023
-Linux-6.2.11-arch1-1-x86_64-with-glibc2.2.5
+Fri Apr 21 01:59:25 2023
+Windows-10-10.0.19041
 Ren'Py 7.5.3.22090809
  
 
 Bootstrap to the start of init.init took 0.13s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.03s
-Loading script took 0.37s
-Loading save slot metadata. took 0.00s
+Early init took 0.01s
+Loader init took 0.06s
+Loading error handling took 0.06s
+Loading script took 6.91s
+Loading save slot metadata. took 0.04s
 Loading persistent took 0.00s
-Faled to initialize steam: OSError('/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/lib/py2-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory',)
-Running init code took 0.30s
-Loading analysis data took 0.07s
-Analyze and compile ATL took 0.14s
+Faled to initialize steam: WindowsError(126, 'The specified module could not be found')
+Running init code took 0.61s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.13s
 Index archives took 0.00s
-Dump and make backups. took 0.11s
+Backing up script files to 'C:\\Users\\Noah\\AppData\\Roaming/RenPy/backups\\Our-current-project-1':
+Dump and make backups. took 0.14s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.07s
+Initial gc. took 0.18s
 DPI scale factor: 1.000000
-Creating interface object took 0.00s
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.01s
 Cleaning stores took 0.00s
-Init translation took 0.10s
+Init translation took 0.17s
 Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
 Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
+Save bytecode. took 0.20s
+Running _start took 0.04s
 Performance test:
+Interface start took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) HD Graphics 4400'
+Version: '4.3.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1366, 768) drawable=(1366, 768)
+Maximum texture size: 4096x4096
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 210, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 390, in script
-    $ __gl_test()
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/ast.py", line 1131, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/python.py", line 1061, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00gltest.rpy", line 390, in <module>
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
-    _gl_performance_test()
-  File "renpy/common/00gltest.rpy", line 342, in _gl_performance_test
-    ui.interact(suppress_underlay=True, suppress_overlay=True)
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/display/core.py", line 3341, in interact
-    self.start()
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/display/core.py", line 2249, in start
-    self.post_init()
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/display/core.py", line 2330, in post_init
-    self.set_icon()
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/display/core.py", line 2369, in set_icon
-    with renpy.loader.load(icon) as f:
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/loader.py", line 820, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'gui/window_icon.png'.
+  File "game/chapter-0.rpy", line 1, in script
+    label Test:
+  File "renpy/ast.py", line 1782, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "renpy/execution.py", line 726, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'game/script.rpy', 1681886706, 31).
 
 While running game code:
-  File "renpy/common/00start.rpy", line 210, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 390, in script
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 390, in <module>
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
-    _gl_performance_test()
-  File "renpy/common/00gltest.rpy", line 342, in _gl_performance_test
-    ui.interact(suppress_underlay=True, suppress_overlay=True)
-IOError: Couldn't find file 'gui/window_icon.png'.
-
-Full traceback:
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/bootstrap.py", line 277, in bootstrap
-    renpy.main.main()
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/main.py", line 660, in main
-    run(restart)
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/main.py", line 146, in run
-    renpy.execution.run_context(True)
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/execution.py", line 938, in run_context
-    context.run()
-  File "renpy/common/00start.rpy", line 210, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 390, in script
-    $ __gl_test()
-  File "renpy/common/00start.rpy", line 210, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 390, in script
-    $ __gl_test()
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/ast.py", line 1131, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/python.py", line 1061, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00gltest.rpy", line 390, in <module>
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
-    _gl_performance_test()
-  File "renpy/common/00gltest.rpy", line 342, in _gl_performance_test
-    ui.interact(suppress_underlay=True, suppress_overlay=True)
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/display/core.py", line 3341, in interact
-    self.start()
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/display/core.py", line 2249, in start
-    self.post_init()
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/display/core.py", line 2330, in post_init
-    self.set_icon()
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/display/core.py", line 2369, in set_icon
-    with renpy.loader.load(icon) as f:
-  File "/home/pandora/Desktop/RenPY/renpy-7.5.3-sdk/renpy/loader.py", line 820, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'gui/window_icon.png'.
-
-While running game code:
-  File "renpy/common/00start.rpy", line 210, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 390, in script
-    $ __gl_test()
-  File "renpy/common/00start.rpy", line 210, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 390, in script
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 390, in <module>
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
-    _gl_performance_test()
-  File "renpy/common/00gltest.rpy", line 342, in _gl_performance_test
-    ui.interact(suppress_underlay=True, suppress_overlay=True)
-IOError: Couldn't find file 'gui/window_icon.png'.
+  File "game/chapter-0.rpy", line 1, in script
+    label Test:
+Exception: Could not find return label (u'game/script.rpy', 1681886706, 31).

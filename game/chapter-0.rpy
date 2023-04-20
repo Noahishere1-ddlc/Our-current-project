@@ -104,7 +104,7 @@ label Test:
     stop music fadeout 2.0
     scene bg class_day
     with dissolve_scene_full
-    "Let me ask you a question"
+    "Let me ask you a question."
     "Let's say the universe started existing mere seconds ago."
     "That everything in your life was fabricated."
     "Would you be able to accept that truth?"

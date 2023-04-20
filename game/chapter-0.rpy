@@ -102,7 +102,7 @@ label Test:
     stop movie
     window auto
     stop music fadeout 2.0
-    scene bg Class
+    scene bg class_day
     with dissolve_scene_full
     "Let me ask you a question"
     "Let's say the universe started existing mere seconds ago."
@@ -113,5 +113,4 @@ label Test:
     "Some would even try to reject it."
     "I let out a sigh and checked the time."
     "Class was almost over."
-    "I was bored out of my mind."
-    ctc "Hello."
+    "I was bored out of my mind.
